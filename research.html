@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Marketing Research — Auntie Gaik Lean in the Digital Space | TechNext</title>
+<meta name="description" content="Marketing research into Auntie Gaik Lean's Old School Eatery's digital presence — social, reviews, search and press — compiled by TechNext."/>
+<meta name="robots" content="noindex, nofollow"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config={theme:{extend:{colors:{navy:{'DEFAULT':'#060D2E','light':'#0A1645','mid':'#0F1E5E'},gold:{'DEFAULT':'#D4AF37','light':'#E8C84A','pale':'#F5E080'},cream:{'DEFAULT':'#FAF6EF','dark':'#F0E8D7','deeper':'#E4D5BF'}},fontFamily:{display:['Playfair Display','Georgia','serif'],serifcg:['Cormorant Garamond','Georgia','serif'],sans:['Inter','system-ui','sans-serif']}}}}
+</script>
+<link rel="stylesheet" href="styles.css?v=4"/>
+<style>
+/* Research-page compact tweaks */
+.rsec{padding:64px 24px}
+@media(max-width:767px){.rsec{padding:46px 18px}}
+.r-card{background:#fff;border:1px solid rgba(6,13,46,.08);border-radius:12px;padding:22px;position:relative;overflow:hidden;transition:transform .35s cubic-bezier(.34,1.4,.64,1),box-shadow .35s ease,border-color .3s ease}
+.r-card:hover{transform:translateY(-5px);box-shadow:0 18px 44px rgba(6,13,46,.12);border-color:rgba(212,175,55,.4)}
+.r-card-d{background:linear-gradient(160deg,#0C1740,#070F30);border:1px solid rgba(212,175,55,.15)}
+.ch-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 16px;border-radius:10px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);transition:background .25s ease,transform .25s ease}
+.ch-row:hover{background:rgba(212,175,55,.08);transform:translateX(4px)}
+.pill-ok{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#0b3d1f;background:#9ad7a8;padding:4px 10px;border-radius:20px;font-weight:700;white-space:nowrap}
+.pill-gap{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#5a1d1d;background:#e6a6a6;padding:4px 10px;border-radius:20px;font-weight:700;white-space:nowrap}
+.src-link{color:#B8941F;text-decoration:underline;text-underline-offset:2px}
+.src-link:hover{color:#060D2E}
+</style>
+</head>
+<body>
+<div id="progress"></div>
+<div id="cursor-glow"></div>
+<button id="toTop" aria-label="Back to top"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7"/></svg></button>
+
+<!-- NAV -->
+<nav class="fixed top-0 left-0 right-0 z-50 px-6 lg:px-12 py-4" id="nav" style="background:rgba(6,13,46,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid rgba(212,175,55,.18)">
+  <div class="max-w-6xl mx-auto flex items-center justify-between">
+    <a href="https://technextsg.github.io/auntie-gaik-lean/" target="_blank" class="flex items-center" style="text-decoration:none">
+      <img src="img/logo-white.png" alt="Auntie Gaik Lean's Old School Eatery" style="height:46px;width:auto;object-fit:contain;display:block"/>
+    </a>
+    <div class="flex items-center gap-4 md:gap-8">
+      <a href="index.html" class="nav-page">Showcase</a>
+      <a href="research.html" class="nav-page nav-current">Marketing Research</a>
+    </div>
+    <a href="index.html#next" class="btn btn-gold text-[11px] tracking-[.16em] uppercase px-5 md:px-6 py-2.5 font-semibold rounded-sm">Connect</a>
+  </div>
+</nav>
+
+<!-- HERO (full screen) -->
+<header class="hero-bg relative min-h-screen flex items-center justify-center px-6" style="background:#060D2E">
+  <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="img/research-hero-poster.jpg">
+    <source src="img/research-hero.mp4" type="video/mp4"/>
+  </video>
+  <div class="hero-overlay"></div>
+  <div class="star-field" id="stars"></div>
+  <div id="hero-inner" class="max-w-4xl mx-auto text-center relative z-10 pt-28 pb-20">
+    <div class="inline-flex items-center gap-3 border border-[rgba(212,175,55,.4)] bg-[rgba(212,175,55,.08)] backdrop-blur-sm px-6 py-2.5 mb-9">
+      <span class="shimmer"><svg viewBox="0 0 24 24" fill="#D4AF37" style="width:13px;height:13px"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z"/></svg></span>
+      <span class="text-[11px] tracking-[.25em] uppercase font-medium" style="color:#D4AF37">Marketing Research · Updated June 2026</span>
+      <span class="shimmer"><svg viewBox="0 0 24 24" fill="#D4AF37" style="width:13px;height:13px"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z"/></svg></span>
+    </div>
+    <p class="text-white/55 text-[11px] tracking-[.3em] uppercase mb-5">A Digital Audit of</p>
+    <h1 class="text-4xl md:text-6xl font-semibold text-white mb-6 michelin-glow leading-[1.1]" style="font-family:'Playfair Display',serif">
+      Auntie Gaik Lean<br><em class="gold-anim font-normal">in the Digital Space</em>
+    </h1>
+    <p class="text-white/80 text-xl md:text-2xl italic font-light mb-4" style="font-family:'Cormorant Garamond',serif">
+      Where the restaurant shows up online — reach, reputation, gaps &amp; opportunity.
+    </p>
+    <p class="text-white/55 text-[11px] tracking-[.22em] uppercase mb-11">Marketing Research &nbsp;·&nbsp; Curated by TechNext</p>
+    <div class="flex flex-row flex-wrap gap-4 justify-center">
+      <a href="#snapshot" class="btn btn-gold text-xs tracking-[.15em] uppercase px-9 py-4 font-semibold rounded-sm">
+        View the Findings
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+      </a>
+      <a href="index.html" class="btn btn-ow text-xs tracking-[.15em] uppercase px-9 py-4 rounded-sm">Back to Showcase</a>
+    </div>
+  </div>
+  <div class="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/40">
+    <svg class="w-5 h-5 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+  </div>
+</header>
+
+<!-- KEYWORD MARQUEE -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track" id="mq">
+    <span>Google Reviews</span><span>TripAdvisor</span><span>Instagram</span><span>Facebook</span><span>MICHELIN Guide</span><span>Tatler</span><span>小红书</span><span>TikTok</span><span>Search Demand</span><span>Trip.com</span><span>Yelp</span><span>Word of Mouth</span>
+  </div>
+</div>
+
+<!-- 1. DIGITAL FOOTPRINT SNAPSHOT -->
+<section id="snapshot" class="rsec" style="background:#FAF6EF">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-12 reveal">
+      <p class="svc-eyebrow" style="color:#B8941F">01 · Digital Footprint</p>
+      <h2 class="text-2xl md:text-3xl font-semibold mt-2 mb-4" style="font-family:'Playfair Display',serif;color:#060D2E">The Snapshot</h2>
+      <div class="gold-bar mx-auto"></div>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-5">
+      <div class="r-card reveal-s d1 text-center">
+        <div class="big-stat" data-count="7375" data-suffix="">0</div>
+        <p class="text-sm mt-2" style="color:#060D2E;font-weight:600">Instagram followers</p>
+        <p class="text-xs" style="color:#7A7A7F">@auntiegaiklean</p>
+      </div>
+      <div class="r-card reveal-s d2 text-center">
+        <div class="big-stat" data-count="9603" data-suffix="">0</div>
+        <p class="text-sm mt-2" style="color:#060D2E;font-weight:600">Facebook likes</p>
+        <p class="text-xs" style="color:#7A7A7F">Old School Eatery page</p>
+      </div>
+      <div class="r-card reveal-s d3 text-center">
+        <div class="big-stat" data-count="2224" data-suffix="">0</div>
+        <p class="text-sm mt-2" style="color:#060D2E;font-weight:600">Google reviews</p>
+        <p class="text-xs" style="color:#7A7A7F">4.2★ average</p>
+      </div>
+      <div class="r-card reveal-s d4 text-center">
+        <div class="big-stat" data-count="4" data-suffix="">0</div>
+        <p class="text-sm mt-2" style="color:#060D2E;font-weight:600">Michelin years</p>
+        <p class="text-xs" style="color:#7A7A7F">1★ · 2023–2026</p>
+      </div>
+    </div>
+    <p class="chart-note text-center" style="color:#060D2E">Figures gathered at time of research, June 2026 · approximate &amp; subject to change</p>
+  </div>
+</section>
+
+<!-- 2. ONLINE REVIEWS -->
+<section id="reviews" class="rsec" style="background:#FAF6EF">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-12 reveal">
+      <p class="svc-eyebrow" style="color:#B8941F">02 · Online Reviews</p>
+      <h2 class="text-2xl md:text-3xl font-semibold mt-2 mb-4" style="font-family:'Playfair Display',serif;color:#060D2E">What Diners Are Saying</h2>
+      <div class="gold-bar mx-auto"></div>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-5 mb-10">
+      <div class="r-card reveal-s d1 text-center">
+        <div class="big-stat">4.2<span style="font-size:1.2rem">★</span></div>
+        <p class="text-sm mt-2 font-semibold" style="color:#060D2E">Google</p>
+        <p class="text-xs" style="color:#7A7A7F"><span data-count="2224" data-suffix="">0</span> reviews</p>
+      </div>
+      <div class="r-card reveal-s d2 text-center">
+        <div class="big-stat">4.2<span style="font-size:1.2rem">★</span></div>
+        <p class="text-sm mt-2 font-semibold" style="color:#060D2E">TripAdvisor</p>
+        <p class="text-xs" style="color:#7A7A7F"><span data-count="326" data-suffix="">0</span> reviews · #93 / 1,937</p>
+      </div>
+      <div class="r-card reveal-s d3 text-center">
+        <div class="big-stat">4.8<span style="font-size:1.2rem">★</span></div>
+        <p class="text-sm mt-2 font-semibold" style="color:#060D2E">Trip.com</p>
+        <p class="text-xs" style="color:#7A7A7F"><span data-count="12" data-suffix="">0</span> reviews</p>
+      </div>
+      <div class="r-card reveal-s d4 text-center">
+        <div class="big-stat" data-count="91" data-suffix="">0</div>
+        <p class="text-sm mt-2 font-semibold" style="color:#060D2E">Yelp photos</p>
+        <p class="text-xs" style="color:#7A7A7F">18 reviews</p>
+      </div>
+    </div>
+    <div class="grid lg:grid-cols-2 gap-8 items-center">
+      <div class="reveal-l panel panel-l">
+        <p class="text-sm font-semibold mb-5" style="color:#060D2E">Review Volume by Platform</p>
+        <div class="bars">
+          <div class="bar"><i style="--h:100%"></i><b style="color:#060D2E">Google</b><small style="color:#5A5A5F">2,224</small></div>
+          <div class="bar"><i style="--h:24%"></i><b style="color:#060D2E">TripAdvisor</b><small style="color:#5A5A5F">326</small></div>
+          <div class="bar"><i style="--h:9%"></i><b style="color:#060D2E">Yelp</b><small style="color:#5A5A5F">18</small></div>
+          <div class="bar"><i style="--h:8%"></i><b style="color:#060D2E">Trip.com</b><small style="color:#5A5A5F">12</small></div>
+        </div>
+        <p class="chart-note" style="color:#060D2E">Bar length indicative · counts at time of research, June 2026</p>
+      </div>
+      <div class="reveal-r">
+        <h3 class="text-xl font-semibold mb-3" style="font-family:'Playfair Display',serif;color:#060D2E">The takeaway</h3>
+        <p class="mb-4" style="color:#4A4A4F">Google is the centre of gravity — <strong>2,224 reviews</strong> at 4.2★ is a powerful base. Diners consistently rate food and service highly, and the restaurant ranks <strong>#2 of 50</strong> "best restaurants in Penang Island" on Wanderlog.</p>
+        <p class="mb-5" style="color:#4A4A4F">The opportunity: a steady review-generation flow to lift 4.2★ toward 4.5★+, and to broaden beyond Google onto the platforms travellers actually plan with.</p>
+        <div>
+          <span class="chip" style="color:#B8941F">"Authentic"</span><span class="chip" style="color:#B8941F">"Made from scratch"</span><span class="chip" style="color:#B8941F">Pie Tee</span><span class="chip" style="color:#B8941F">Gulai Tumis</span><span class="chip" style="color:#B8941F">"Book ahead"</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. WHERE THEY LIVE ONLINE -->
+<section id="channels" class="rsec" style="background:#060D2E">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-12 reveal">
+      <p class="svc-eyebrow" style="color:#D4AF37">03 · Channel Presence</p>
+      <h2 class="text-2xl md:text-3xl font-semibold text-white mt-2 mb-4" style="font-family:'Playfair Display',serif">Where Auntie Gaik Lives Online</h2>
+      <div class="gold-bar mx-auto"></div>
+    </div>
+    <div class="grid md:grid-cols-2 gap-x-10 gap-y-3">
+      <div class="reveal-l space-y-3">
+        <div class="ch-row"><span class="text-white/90">MICHELIN Guide</span><span class="pill-ok">Strong · 1★</span></div>
+        <div class="ch-row"><span class="text-white/90">Instagram</span><span class="pill-ok">Active · 7.4K</span></div>
+        <div class="ch-row"><span class="text-white/90">Facebook</span><span class="pill-ok">Active · 9.6K</span></div>
+        <div class="ch-row"><span class="text-white/90">TripAdvisor</span><span class="pill-ok">4.2★ · 325</span></div>
+        <div class="ch-row"><span class="text-white/90">Google Business Profile</span><span class="pill-ok">Listed</span></div>
+        <div class="ch-row"><span class="text-white/90">Press &amp; guides (Tatler, The Star, Trip.com)</span><span class="pill-ok">Featured</span></div>
+      </div>
+      <div class="reveal-r space-y-3">
+        <div class="ch-row"><span class="text-white/90">TikTok</span><span class="pill-gap">Gap · none</span></div>
+        <div class="ch-row"><span class="text-white/90">小红书 (Xiaohongshu)</span><span class="pill-gap">Gap · none</span></div>
+        <div class="ch-row"><span class="text-white/90">YouTube / video</span><span class="pill-gap">Gap · minimal</span></div>
+        <div class="ch-row"><span class="text-white/90">Paid social advertising</span><span class="pill-gap">Gap · none seen</span></div>
+        <div class="ch-row"><span class="text-white/90">Email / WhatsApp CRM</span><span class="pill-gap">Gap · none seen</span></div>
+        <div class="ch-row"><span class="text-white/90">Bilingual (中文) content</span><span class="pill-gap">Gap · limited</span></div>
+      </div>
+    </div>
+    <p class="chart-note text-white text-center">Based on publicly visible channels, June 2026</p>
+  </div>
+</section>
+
+<!-- 3. KEY FINDING -->
+<section id="finding" class="rsec" style="background:#FAF6EF">
+  <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+    <div class="reveal-l">
+      <p class="svc-eyebrow" style="color:#B8941F">04 · The Key Finding</p>
+      <h2 class="text-2xl md:text-3xl font-semibold mt-2 mb-4" style="font-family:'Playfair Display',serif;color:#060D2E">A World-Class Reputation, a Quiet Digital Voice</h2>
+      <div class="gold-bar mb-5"></div>
+      <p class="mb-4" style="color:#4A4A4F">Auntie Gaik Lean holds one of Malaysia's most prestigious culinary honours — the country's <strong>first Peranakan Michelin star</strong>, held four years running. Yet its digital reach hasn't kept pace with its fame. Coverage notes the restaurant is <em>"quite unknown in the social media market,"</em> with popularity driven largely by word of mouth.</p>
+      <p style="color:#4A4A4F">The reputation is elite. The digital footprint is modest. That distance is exactly where the growth lives.</p>
+    </div>
+    <div class="reveal-r panel panel-l">
+      <p class="text-sm font-semibold mb-5" style="color:#060D2E">Reputation vs Digital Reach</p>
+      <div class="hbars">
+        <div><div class="hb-top" style="color:#060D2E"><span>Culinary reputation</span><span style="color:#B8941F">Elite</span></div><div class="hb-track"><div class="hb-fill" style="--w:95%"></div></div></div>
+        <div><div class="hb-top" style="color:#060D2E"><span>Press &amp; guide coverage</span><span style="color:#B8941F">Strong</span></div><div class="hb-track"><div class="hb-fill" style="--w:85%"></div></div></div>
+        <div><div class="hb-top" style="color:#060D2E"><span>Social media reach</span><span style="color:#B8941F">Modest</span></div><div class="hb-track"><div class="hb-fill" style="--w:42%"></div></div></div>
+        <div><div class="hb-top" style="color:#060D2E"><span>Short-form video (TikTok/Reels)</span><span style="color:#B8941F">Minimal</span></div><div class="hb-track"><div class="hb-fill" style="--w:15%"></div></div></div>
+        <div><div class="hb-top" style="color:#060D2E"><span>Paid &amp; bilingual reach</span><span style="color:#B8941F">Untapped</span></div><div class="hb-track"><div class="hb-fill" style="--w:10%"></div></div></div>
+      </div>
+      <p class="chart-note" style="color:#060D2E">Illustrative assessment from research</p>
+    </div>
+  </div>
+</section>
+
+<!-- 4. COMPETITIVE LANDSCAPE -->
+<section id="landscape" class="rsec" style="background:#060D2E">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-12 reveal">
+      <p class="svc-eyebrow" style="color:#D4AF37">05 · Competitive Landscape</p>
+      <h2 class="text-2xl md:text-3xl font-semibold text-white mt-2 mb-4" style="font-family:'Playfair Display',serif">Penang's Michelin-Starred Field</h2>
+      <div class="gold-bar mx-auto mb-4"></div>
+      <p class="text-white/65 max-w-2xl mx-auto" style="font-family:'Cormorant Garamond',serif;font-size:1.2rem">Among Penang's one-star restaurants, Auntie Gaik Lean stands alone as the Peranakan name — a category of one.</p>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+      <div class="r-card r-card-d reveal-s d1"><p class="text-white font-semibold" style="font-family:'Playfair Display',serif">Auntie Gaik Lean's</p><p class="text-xs mt-1" style="color:#E8C84A">Peranakan · 1★ — the only one</p></div>
+      <div class="r-card r-card-d reveal-s d2"><p class="text-white font-semibold" style="font-family:'Playfair Display',serif">Au Jardin</p><p class="text-xs mt-1 text-white/55">Modern · 1★</p></div>
+      <div class="r-card r-card-d reveal-s d3"><p class="text-white font-semibold" style="font-family:'Playfair Display',serif">Beta</p><p class="text-xs mt-1 text-white/55">Malaysian · 1★</p></div>
+      <div class="r-card r-card-d reveal-s d1"><p class="text-white font-semibold" style="font-family:'Playfair Display',serif">DC by Darren Chin</p><p class="text-xs mt-1 text-white/55">Contemporary · 1★</p></div>
+      <div class="r-card r-card-d reveal-s d2"><p class="text-white font-semibold" style="font-family:'Playfair Display',serif">Christoph's, Jaloux, Lucky Hole</p><p class="text-xs mt-1 text-white/55">Selected / newcomers</p></div>
+      <div class="r-card r-card-d reveal-s d3"><p class="text-white font-semibold" style="font-family:'Playfair Display',serif">Heritage advantage</p><p class="text-xs mt-1" style="color:#E8C84A">Nyonya story no rival can copy</p></div>
+    </div>
+    <p class="chart-note text-white text-center">Source: MICHELIN Guide KL &amp; Penang 2025–2026</p>
+  </div>
+</section>
+
+<!-- 5. AUDIENCE & DEMAND -->
+<section id="demand" class="rsec" style="background:#FAF6EF">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-12 reveal">
+      <p class="svc-eyebrow" style="color:#B8941F">06 · Audience &amp; Demand Signals</p>
+      <h2 class="text-2xl md:text-3xl font-semibold mt-2 mb-4" style="font-family:'Playfair Display',serif;color:#060D2E">Who's Searching, and Why It Matters</h2>
+      <div class="gold-bar mx-auto"></div>
+    </div>
+    <div class="grid md:grid-cols-3 gap-5">
+      <div class="r-card reveal-s d1">
+        <div class="big-stat" style="font-size:1.9rem">中文</div>
+        <p class="text-sm mt-2 font-semibold" style="color:#060D2E">Chinese-speaking tourism</p>
+        <p class="text-xs mt-1" style="color:#5A5A5F">Penang draws large numbers of Mandarin-speaking travellers — a bilingual + 小红书 presence would reach them directly.</p>
+      </div>
+      <div class="r-card reveal-s d2">
+        <div class="big-stat" style="font-size:1.9rem">RM<span data-count="200" data-suffix="">0</span></div>
+        <p class="text-sm mt-2 font-semibold" style="color:#060D2E">Booking demand is real</p>
+        <p class="text-xs mt-1" style="color:#5A5A5F">A RM200 reservation deposit and "book ahead" advisories signal genuine demand — and capacity worth filling efficiently.</p>
+      </div>
+      <div class="r-card reveal-s d3">
+        <div class="big-stat" style="font-size:1.9rem">#1</div>
+        <p class="text-sm mt-2 font-semibold" style="color:#060D2E">Search intent to own</p>
+        <p class="text-xs mt-1" style="color:#5A5A5F">High-intent queries like "Michelin Peranakan Penang" and "best Nyonya George Town" are winnable with focused SEO &amp; AEO.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 6. OPPORTUNITIES -->
+<section id="opportunities" class="rsec" style="background:#060D2E">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-12 reveal">
+      <p class="svc-eyebrow" style="color:#D4AF37">07 · What the Research Points To</p>
+      <h2 class="text-2xl md:text-3xl font-semibold text-white mt-2 mb-4" style="font-family:'Playfair Display',serif">The Opportunities</h2>
+      <div class="gold-bar mx-auto"></div>
+    </div>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="r-card r-card-d reveal-l"><p class="text-white font-semibold mb-1" style="font-family:'Playfair Display',serif">Launch short-form video</p><p class="text-sm text-white/65">Open TikTok &amp; Reels — the channels entirely absent today — built from the dishes and the heritage story.</p></div>
+      <div class="r-card r-card-d reveal-r"><p class="text-white font-semibold mb-1" style="font-family:'Playfair Display',serif">Reach the 中文 audience</p><p class="text-sm text-white/65">Bilingual captions and a 小红书 presence to capture Mandarin-speaking travellers planning Penang trips.</p></div>
+      <div class="r-card r-card-d reveal-l"><p class="text-white font-semibold mb-1" style="font-family:'Playfair Display',serif">Grow review velocity</p><p class="text-sm text-white/65">Turn a strong 4.2★ into more reviews and a higher rating with a steady review-generation flow.</p></div>
+      <div class="r-card r-card-d reveal-r"><p class="text-white font-semibold mb-1" style="font-family:'Playfair Display',serif">Own AI &amp; search answers</p><p class="text-sm text-white/65">SEO + AEO so Auntie Gaik is the name returned by Google and AI assistants for Penang dining.</p></div>
+    </div>
+    <div class="text-center mt-10 reveal">
+      <a href="index.html#pillars" class="btn btn-gold text-xs tracking-[.15em] uppercase px-9 py-4 font-semibold rounded-sm">See How We'd Deliver This
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SOURCES -->
+<section class="rsec" style="background:#FAF6EF">
+  <div class="max-w-4xl mx-auto reveal">
+    <p class="svc-eyebrow mb-3" style="color:#B8941F">Sources &amp; Method</p>
+    <p class="text-sm mb-4" style="color:#5A5A5F">Compiled by TechNext in June 2026 from publicly available sources. Social and review figures are point-in-time and approximate; chart proportions marked "illustrative" are research-based estimates, not official metrics.</p>
+    <div class="flex flex-wrap gap-x-5 gap-y-2 text-sm">
+      <a class="src-link" href="https://guide.michelin.com/us/en/pulau-pinang/my-george-town/restaurant/auntie-gaik-lean-s-old-school-eatery" target="_blank">MICHELIN Guide</a>
+      <a class="src-link" href="https://www.tripadvisor.com/Restaurant_Review-g660694-d4992326-Reviews-Auntie_Gaik_Lean_s-Penang_Island_Penang.html" target="_blank">TripAdvisor</a>
+      <a class="src-link" href="https://www.instagram.com/auntiegaiklean/" target="_blank">Instagram</a>
+      <a class="src-link" href="https://www.facebook.com/p/Auntie-Gaik-Leans-Old-School-Eatery-100063562363254/" target="_blank">Facebook</a>
+      <a class="src-link" href="https://www.tatlerasia.com/people/gaik-lean-beh" target="_blank">Tatler Asia</a>
+      <a class="src-link" href="https://www.thestar.com.my/lifestyle/living/2024/12/09/penang-peranakan-pride-auntie-gaik-leans-old-school-eatery-deserves-its-michelin-star" target="_blank">The Star</a>
+      <a class="src-link" href="https://guide.michelin.com/en/article/michelin-guide-ceremony/michelin-guide-kuala-lumpur-penang-2025-selection" target="_blank">MICHELIN KL &amp; Penang 2025</a>
+    </div>
+  </div>
+</section>
+
+<footer class="py-8 px-6 text-center" style="background:#050C28">
+  <p class="text-white/35 text-xs">© 2026 · Marketing Research for Auntie Gaik Lean's Old School Eatery · Curated by TechNext</p>
+</footer>
+
+<script src="app.js?v=4" defer></script>
+</body>
+</html>

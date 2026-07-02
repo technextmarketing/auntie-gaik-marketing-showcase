@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Digital Marketing Showcase — Auntie Gaik Lean's Old School Eatery | TechNext</title>
+<meta name="description" content="A digital marketing showcase by TechNext for Auntie Gaik Lean's Old School Eatery — Malaysia's Michelin-starred Peranakan restaurant, George Town, Penang."/>
+<meta name="robots" content="noindex, nofollow"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config={theme:{extend:{colors:{navy:{'DEFAULT':'#060D2E','light':'#0A1645','mid':'#0F1E5E'},gold:{'DEFAULT':'#D4AF37','light':'#E8C84A','pale':'#F5E080'},cream:{'DEFAULT':'#FAF6EF','dark':'#F0E8D7','deeper':'#E4D5BF'}},fontFamily:{display:['Playfair Display','Georgia','serif'],serifcg:['Cormorant Garamond','Georgia','serif'],sans:['Inter','system-ui','sans-serif']}}}}
+</script>
+<link rel="stylesheet" href="styles.css?v=4"/>
+</head>
+<body>
+<div id="progress"></div>
+<div id="cursor-glow"></div>
+<button id="toTop" aria-label="Back to top"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7"/></svg></button>
+
+<!-- NAV -->
+<nav class="fixed top-0 left-0 right-0 z-50 px-6 lg:px-12 py-4" id="nav" style="background:rgba(6,13,46,.55);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid rgba(212,175,55,.18)">
+  <div class="max-w-6xl mx-auto flex items-center justify-between">
+    <a href="https://technextsg.github.io/auntie-gaik-lean/" target="_blank" class="flex items-center" style="text-decoration:none">
+      <img src="img/logo-white.png" alt="Auntie Gaik Lean's Old School Eatery" style="height:46px;width:auto;object-fit:contain;display:block"/>
+    </a>
+    <div class="flex items-center gap-4 md:gap-8">
+      <a href="index.html" class="nav-page nav-current">Showcase</a>
+      <a href="research.html" class="nav-page">Marketing Research</a>
+    </div>
+    <a href="#next" class="btn btn-gold text-[11px] tracking-[.16em] uppercase px-5 md:px-6 py-2.5 font-semibold rounded-sm">Connect</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero-bg relative min-h-screen flex items-center justify-center">
+  <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="img/hero-poster.jpg">
+    <source src="img/hero.mp4" type="video/mp4"/>
+  </video>
+  <div class="hero-overlay"></div>
+  <div class="star-field" id="stars"></div>
+  <div id="hero-inner" class="relative z-10 text-center px-6 max-w-4xl mx-auto pt-28 pb-20">
+    <div class="inline-flex items-center gap-3 border border-[rgba(212,175,55,.4)] bg-[rgba(212,175,55,.08)] backdrop-blur-sm px-6 py-2.5 mb-9">
+      <span class="shimmer"><svg viewBox="0 0 24 24" fill="#D4AF37" style="width:13px;height:13px"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z"/></svg></span>
+      <span class="text-[11px] tracking-[.25em] uppercase font-medium" style="color:#D4AF37">Digital Marketing Showcase · 2026</span>
+      <span class="shimmer"><svg viewBox="0 0 24 24" fill="#D4AF37" style="width:13px;height:13px"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z"/></svg></span>
+    </div>
+    <p class="text-white/55 text-[11px] tracking-[.3em] uppercase mb-5">A Showcase for</p>
+    <h1 class="michelin-glow text-white text-4xl md:text-6xl font-semibold leading-[1.12] mb-6" style="font-family:'Playfair Display',serif">
+      Auntie Gaik Lean's<br>
+      <em class="font-normal gold-anim">Old School Eatery</em>
+    </h1>
+    <p class="text-white/80 text-xl md:text-2xl italic font-light mb-4" style="font-family:'Cormorant Garamond',serif">
+      Imagining a Michelin-starred legacy, beautifully told online.
+    </p>
+    <p class="text-white/55 text-[11px] tracking-[.22em] uppercase mb-11">
+      Digital Marketing Showcase &nbsp;·&nbsp; Curated by TechNext
+    </p>
+    <div class="flex flex-row flex-wrap gap-4 justify-center">
+      <a href="#pillars" class="btn btn-gold text-xs tracking-[.15em] uppercase px-9 py-4 font-semibold rounded-sm">
+        Explore What's Possible
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+      </a>
+      <a href="#showcase" class="btn btn-ow text-xs tracking-[.15em] uppercase px-9 py-4 rounded-sm">See the Showcase</a>
+    </div>
+  </div>
+  <div class="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/40">
+    <svg class="w-5 h-5 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+  </div>
+</section>
+
+<!-- KEYWORD MARQUEE -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track" id="mq">
+    <span>Social Media</span><span>Image &amp; Video Editing</span><span>SEO</span><span>Keywording</span><span>GEO</span><span>AEO</span><span>Paid Social Ads</span><span>Analytics</span><span>Google Reviews</span><span>Reels</span><span>TikTok</span><span>Instagram</span><span>小红书</span>
+  </div>
+</div>
+
+<!-- OPPORTUNITY -->
+<section id="opportunity" class="py-24 px-6" style="background:#FAF6EF">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-16 reveal">
+      <p class="label-ornament text-[11px] tracking-[.3em] uppercase mb-4" style="color:#B8941F">The Opportunity</p>
+      <h2 class="text-3xl md:text-4xl font-semibold mb-5" style="font-family:'Playfair Display',serif;color:#060D2E">A World-Class Kitchen Deserves a World-Class Presence</h2>
+      <div class="gold-bar mx-auto mb-6"></div>
+      <p class="text-lg max-w-3xl mx-auto" style="color:#3A3A3F;font-family:'Cormorant Garamond',serif;font-size:1.35rem;line-height:1.7">
+        Four consecutive years of Michelin recognition have earned Auntie Gaik Lean a place among the world's finest Peranakan kitchens. The next chapter is making sure every traveller and food lover searching for that experience finds you first — and remembers you after.
+      </p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="icard reveal-s d1 p-7 bg-white border border-[rgba(6,13,46,.08)] text-center">
+        <div class="kpi-num mb-2" data-count="4" data-suffix="★">0★</div>
+        <p class="text-sm" style="color:#3A3A3F">Michelin years (2023–2026) — a story worth telling daily across every channel.</p>
+      </div>
+      <div class="icard reveal-s d2 p-7 bg-white border border-[rgba(6,13,46,.08)] text-center">
+        <div class="kpi-num mb-2" data-count="70" data-suffix="%+">0%+</div>
+        <p class="text-sm" style="color:#3A3A3F">Of diners research a restaurant online before booking. The first impression is digital.</p>
+      </div>
+      <div class="icard reveal-s d3 p-7 bg-white border border-[rgba(6,13,46,.08)] text-center">
+        <div class="kpi-num mb-2">中文</div>
+        <p class="text-sm" style="color:#3A3A3F">Penang draws huge Chinese-speaking tourism — a bilingual presence unlocks it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PILLARS -->
+<section id="pillars" class="py-24 px-6" style="background:#060D2E">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-16 reveal">
+      <p class="label-ornament text-[11px] tracking-[.3em] uppercase mb-4" style="color:#D4AF37">Capabilities</p>
+      <h2 class="text-3xl md:text-4xl font-semibold text-white mb-5" style="font-family:'Playfair Display',serif">Seven Digital Marketing Services</h2>
+      <div class="gold-bar mx-auto mb-6"></div>
+      <p class="text-white/65 max-w-2xl mx-auto" style="font-family:'Cormorant Garamond',serif;font-size:1.3rem">A purely digital toolkit — visual-first, measurable, built to grow the Auntie Gaik brand.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+
+      <div class="pillar-card p-7 reveal d1">
+        <div class="flex items-center justify-between mb-4"><span class="pillar-num">01</span>
+          <svg width="28" height="28" fill="none" stroke="#D4AF37" stroke-width="1.5" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="#D4AF37"/></svg></div>
+        <h3 class="text-lg font-semibold mb-2" style="font-family:'Playfair Display',serif;color:#060D2E">Social Media Management</h3>
+        <p class="text-sm" style="color:#4A4A4F">Always-on presence across Instagram, TikTok, Facebook &amp; 小红书.</p>
+      </div>
+
+      <div class="pillar-card p-7 reveal d2">
+        <div class="flex items-center justify-between mb-4"><span class="pillar-num">02</span>
+          <svg width="28" height="28" fill="none" stroke="#D4AF37" stroke-width="1.5" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M10 9l5 3-5 3z" fill="#D4AF37" stroke="none"/></svg></div>
+        <h3 class="text-lg font-semibold mb-2" style="font-family:'Playfair Display',serif;color:#060D2E">Image &amp; Video Editing</h3>
+        <p class="text-sm" style="color:#4A4A4F">Cinematic dish photography &amp; scroll-stopping reels, expertly edited.</p>
+      </div>
+
+      <div class="pillar-card p-7 reveal d3">
+        <div class="flex items-center justify-between mb-4"><span class="pillar-num">03</span>
+          <svg width="28" height="28" fill="none" stroke="#D4AF37" stroke-width="1.5" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></div>
+        <h3 class="text-lg font-semibold mb-2" style="font-family:'Playfair Display',serif;color:#060D2E">SEO &amp; Keywording</h3>
+        <p class="text-sm" style="color:#4A4A4F">Rank #1 for "Michelin Peranakan Penang" and beyond.</p>
+      </div>
+
+      <div class="pillar-card p-7 reveal d4">
+        <div class="flex items-center justify-between mb-4"><span class="pillar-num">04</span>
+          <svg width="28" height="28" fill="none" stroke="#D4AF37" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><circle cx="18.5" cy="5" r=".9" fill="#D4AF37"/><circle cx="5.5" cy="18" r=".9" fill="#D4AF37"/></svg></div>
+        <h3 class="text-lg font-semibold mb-2" style="font-family:'Playfair Display',serif;color:#060D2E">GEO &amp; AEO</h3>
+        <p class="text-sm" style="color:#4A4A4F">Be the answer AI recommends — ChatGPT, Gemini &amp; AI Overviews.</p>
+      </div>
+
+      <div class="pillar-card p-7 reveal d1">
+        <div class="flex items-center justify-between mb-4"><span class="pillar-num">05</span>
+          <svg width="28" height="28" fill="none" stroke="#D4AF37" stroke-width="1.5" viewBox="0 0 24 24"><path d="M3 17l5-5 4 3 7-8"/><path d="M21 7v5h-5"/></svg></div>
+        <h3 class="text-lg font-semibold mb-2" style="font-family:'Playfair Display',serif;color:#060D2E">Paid Social Ads</h3>
+        <p class="text-sm" style="color:#4A4A4F">Geo-targeted Meta &amp; TikTok campaigns that fill tables.</p>
+      </div>
+
+      <div class="pillar-card p-7 reveal d2">
+        <div class="flex items-center justify-between mb-4"><span class="pillar-num">06</span>
+          <svg width="28" height="28" fill="none" stroke="#D4AF37" stroke-width="1.5" viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
+        <h3 class="text-lg font-semibold mb-2" style="font-family:'Playfair Display',serif;color:#060D2E">Analytics &amp; Reporting</h3>
+        <p class="text-sm" style="color:#4A4A4F">Clear monthly dashboards — every ringgit accounted for.</p>
+      </div>
+
+      <div class="pillar-card p-7 reveal d3">
+        <div class="flex items-center justify-between mb-4"><span class="pillar-num">07</span>
+          <svg width="28" height="28" fill="none" stroke="#D4AF37" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 21s-7-6-7-11a7 7 0 0114 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.4"/></svg></div>
+        <h3 class="text-lg font-semibold mb-2" style="font-family:'Playfair Display',serif;color:#060D2E">Google Business &amp; Reviews</h3>
+        <p class="text-sm" style="color:#4A4A4F">Optimised profile, more 5-star reviews, managed responses.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ SERVICE DETAIL SECTIONS ══════════ -->
+
+<!-- 01 SOCIAL MEDIA -->
+<section id="svc-social" class="svc-sec" style="background:#060D2E">
+  <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+    <div class="reveal-l">
+      <p class="svc-eyebrow" style="color:#D4AF37">01 · Social Media Management</p>
+      <h2 class="text-3xl md:text-4xl font-semibold text-white mt-3 mb-4" style="font-family:'Playfair Display',serif">An Always-On Presence</h2>
+      <div class="gold-bar mb-5"></div>
+      <p class="text-white/70 mb-6">A consistent, bilingual content rhythm across every platform your diners live on — building a following that turns into bookings.</p>
+      <div class="mb-6">
+        <span class="chip" style="color:#E8C84A">Instagram</span><span class="chip" style="color:#E8C84A">TikTok</span><span class="chip" style="color:#E8C84A">Facebook</span><span class="chip" style="color:#E8C84A">小红书</span>
+      </div>
+      <div class="big-stat" data-count="180" data-suffix="%">0%</div>
+      <p class="text-white/55 text-sm">Projected audience growth in 6 months</p>
+    </div>
+    <div class="reveal-r panel panel-d">
+      <p class="text-white/80 text-sm font-semibold mb-5" style="letter-spacing:.04em">Projected Follower Growth</p>
+      <div class="bars">
+        <div class="bar"><i style="--h:30%"></i><b class="text-white">M1</b></div>
+        <div class="bar"><i style="--h:44%"></i><b class="text-white">M2</b></div>
+        <div class="bar"><i style="--h:58%"></i><b class="text-white">M3</b></div>
+        <div class="bar"><i style="--h:71%"></i><b class="text-white">M4</b></div>
+        <div class="bar"><i style="--h:85%"></i><b class="text-white">M5</b></div>
+        <div class="bar"><i style="--h:100%"></i><b class="text-white">M6</b></div>
+      </div>
+      <p class="chart-note text-white">Illustrative projection</p>
+    </div>
+  </div>
+</section>
+
+<!-- 02 IMAGE & VIDEO EDITING -->
+<section id="svc-editing" class="svc-sec" style="background:#FAF6EF">
+  <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+    <div class="reveal-l order-2 lg:order-1 ba" id="ba1">
+      <img class="before" src="img/showcase/menu-2.jpg" alt="Unedited footage"/>
+      <img class="after" src="img/showcase/menu-2.jpg" alt="Edited result"/>
+      <div class="handle"><span class="ico">⇆</span></div>
+      <span class="tag l">After</span><span class="tag r">Before</span>
+    </div>
+    <div class="reveal-r order-1 lg:order-2">
+      <p class="svc-eyebrow" style="color:#B8941F">02 · Image &amp; Video Editing</p>
+      <h2 class="text-3xl md:text-4xl font-semibold mt-3 mb-4" style="font-family:'Playfair Display',serif;color:#060D2E">Cinematic, Crave-Worthy Craft</h2>
+      <div class="gold-bar mb-5"></div>
+      <p class="mb-4" style="color:#4A4A4F">Raw footage and photos transformed into scroll-stopping content — colour-graded, retouched, and cut for every platform. <strong>Drag the slider</strong> to see the difference editing makes.</p>
+      <div class="mb-2">
+        <span class="chip" style="color:#B8941F">Colour Grading</span><span class="chip" style="color:#B8941F">Retouching</span><span class="chip" style="color:#B8941F">Reels &amp; Shorts</span><span class="chip" style="color:#B8941F">Motion Graphics</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 03 SEO & KEYWORDING -->
+<section id="svc-seo" class="svc-sec" style="background:#060D2E">
+  <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+    <div class="reveal-l">
+      <p class="svc-eyebrow" style="color:#D4AF37">03 · SEO &amp; Keywording</p>
+      <h2 class="text-3xl md:text-4xl font-semibold text-white mt-3 mb-4" style="font-family:'Playfair Display',serif">Found First, Every Search</h2>
+      <div class="gold-bar mb-5"></div>
+      <p class="text-white/70 mb-6">We target the exact searches hungry travellers type — then climb the rankings until Auntie Gaik is the first name they see.</p>
+      <div class="big-stat" data-count="12" data-suffix="">0</div>
+      <p class="text-white/55 text-sm">Priority keywords targeted for page one</p>
+    </div>
+    <div class="reveal-r panel panel-d">
+      <p class="text-white/80 text-sm font-semibold mb-5">Target Keyword Visibility</p>
+      <div class="hbars">
+        <div><div class="hb-top text-white/85"><span>michelin peranakan penang</span><span style="color:#E8C84A">#1</span></div><div class="hb-track"><div class="hb-fill" style="--w:95%"></div></div></div>
+        <div><div class="hb-top text-white/85"><span>nyonya restaurant george town</span><span style="color:#E8C84A">#2</span></div><div class="hb-track"><div class="hb-fill" style="--w:84%"></div></div></div>
+        <div><div class="hb-top text-white/85"><span>best peranakan food penang</span><span style="color:#E8C84A">#3</span></div><div class="hb-track"><div class="hb-fill" style="--w:76%"></div></div></div>
+        <div><div class="hb-top text-white/85"><span>where to eat george town</span><span style="color:#E8C84A">top 5</span></div><div class="hb-track"><div class="hb-fill" style="--w:60%"></div></div></div>
+      </div>
+      <p class="chart-note text-white">Illustrative target rankings</p>
+    </div>
+  </div>
+</section>
+
+<!-- 04 GEO & AEO -->
+<section id="svc-geo" class="svc-sec" style="background:#FAF6EF">
+  <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+    <div class="reveal-l order-2 lg:order-1 panel panel-l">
+      <p class="text-sm font-semibold mb-5" style="color:#060D2E">Share of AI Recommendations</p>
+      <div class="flex items-center gap-7">
+        <svg viewBox="0 0 120 120" width="150" height="150" style="flex-shrink:0">
+          <circle cx="60" cy="60" r="52" fill="none" stroke="rgba(6,13,46,.1)" stroke-width="13"/>
+          <circle class="donut-arc" cx="60" cy="60" r="52" fill="none" stroke="#D4AF37" stroke-width="13" stroke-linecap="round" transform="rotate(-90 60 60)" style="--dash:105"/>
+        </svg>
+        <div>
+          <div class="big-stat" data-count="68" data-suffix="%">0%</div>
+          <p class="text-sm mt-1" style="color:#4A4A4F">of relevant AI answers<br>recommend Auntie Gaik</p>
+        </div>
+      </div>
+      <p class="chart-note" style="color:#060D2E">Illustrative share of voice</p>
+    </div>
+    <div class="reveal-r order-1 lg:order-2">
+      <p class="svc-eyebrow" style="color:#B8941F">04 · GEO &amp; AEO</p>
+      <h2 class="text-3xl md:text-4xl font-semibold mt-3 mb-4" style="font-family:'Playfair Display',serif;color:#060D2E">Be the Answer AI Gives</h2>
+      <div class="gold-bar mb-5"></div>
+      <p style="color:#4A4A4F">When travellers ask ChatGPT, Gemini or Google's AI "where should I eat in Penang?", we make sure the answer is you.</p>
+      <div class="mt-6 space-y-3">
+        <div class="ai-card d1" style="background:#fff;color:#060D2E"><strong>ChatGPT</strong> — "For authentic Nyonya cuisine, <span style="color:#B8941F">Auntie Gaik Lean's</span> is a Michelin-starred must-visit."</div>
+        <div class="ai-card d2" style="background:#fff;color:#060D2E"><strong>Gemini</strong> — "A top Peranakan choice in George Town is <span style="color:#B8941F">Auntie Gaik Lean's Old School Eatery</span>."</div>
+        <div class="ai-card d3" style="background:#fff;color:#060D2E"><strong>AI Overviews</strong> — "Recommended: <span style="color:#B8941F">Auntie Gaik Lean's</span>, one Michelin star."</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 05 PAID SOCIAL ADS -->
+<section id="svc-ads" class="svc-sec" style="background:#060D2E">
+  <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+    <div class="reveal-l">
+      <p class="svc-eyebrow" style="color:#D4AF37">05 · Paid Social Ads</p>
+      <h2 class="text-3xl md:text-4xl font-semibold text-white mt-3 mb-4" style="font-family:'Playfair Display',serif">Spend That Fills Tables</h2>
+      <div class="gold-bar mb-5"></div>
+      <p class="text-white/70 mb-6">Geo-targeted Meta &amp; TikTok campaigns that turn scrolling tourists into booked diners — every ringgit tracked to a result.</p>
+      <div class="big-stat" data-count="5" data-suffix="×">0×</div>
+      <p class="text-white/55 text-sm">Target return on ad spend (ROAS)</p>
+    </div>
+    <div class="reveal-r panel panel-d">
+      <p class="text-white/80 text-sm font-semibold mb-5">Campaign Conversion Funnel</p>
+      <div class="funnel">
+        <div class="fn-row" style="--w:100%">Impressions <span>1.0M</span></div>
+        <div class="fn-row" style="--w:72%">Engagements <span>320K</span></div>
+        <div class="fn-row" style="--w:44%">Link Clicks <span>48K</span></div>
+        <div class="fn-row" style="--w:20%">Bookings <span>2.4K</span></div>
+      </div>
+      <p class="chart-note text-white">Illustrative funnel</p>
+    </div>
+  </div>
+</section>
+
+<!-- 06 ANALYTICS & REPORTING -->
+<section id="svc-analytics" class="svc-sec" style="background:#FAF6EF">
+  <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+    <div class="reveal-l order-2 lg:order-1 panel panel-l">
+      <p class="text-sm font-semibold mb-4" style="color:#060D2E">Performance Trend</p>
+      <svg viewBox="0 0 320 160" width="100%" height="150" preserveAspectRatio="none">
+        <defs><linearGradient id="ag" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="rgba(212,175,55,.35)"/><stop offset="1" stop-color="rgba(212,175,55,0)"/></linearGradient></defs>
+        <path class="line-area" d="M10,132 L60,120 L110,96 L160,84 L210,58 L270,40 L310,26 L310,160 L10,160 Z" fill="url(#ag)"/>
+        <polyline class="line-path" points="10,132 60,120 110,96 160,84 210,58 270,40 310,26" fill="none" stroke="#D4AF37" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <g fill="#C9A227"><circle class="line-dot" cx="60" cy="120" r="3.5"/><circle class="line-dot" cx="160" cy="84" r="3.5"/><circle class="line-dot" cx="270" cy="40" r="3.5"/><circle class="line-dot" cx="310" cy="26" r="4"/></g>
+      </svg>
+      <div class="grid grid-cols-3 gap-4 mt-6 text-center">
+        <div><div class="big-stat" style="font-size:1.8rem" data-count="240" data-suffix="K">0</div><p class="text-xs" style="color:#4A4A4F">Monthly Reach</p></div>
+        <div><div class="big-stat" style="font-size:1.8rem" data-count="18" data-suffix="K">0</div><p class="text-xs" style="color:#4A4A4F">Engagements</p></div>
+        <div><div class="big-stat" style="font-size:1.8rem" data-count="2400" data-suffix="">0</div><p class="text-xs" style="color:#4A4A4F">Bookings</p></div>
+      </div>
+      <p class="chart-note" style="color:#060D2E">Illustrative dashboard</p>
+    </div>
+    <div class="reveal-r order-1 lg:order-2">
+      <p class="svc-eyebrow" style="color:#B8941F">06 · Analytics &amp; Reporting</p>
+      <h2 class="text-3xl md:text-4xl font-semibold mt-3 mb-4" style="font-family:'Playfair Display',serif;color:#060D2E">Clarity, Every Month</h2>
+      <div class="gold-bar mb-5"></div>
+      <p style="color:#4A4A4F">A clean dashboard and a plain-English monthly review — so you always know what's working, what's next, and where every ringgit went.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 07 GOOGLE BUSINESS & REVIEWS -->
+<section id="svc-reviews" class="svc-sec" style="background:#060D2E">
+  <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+    <div class="reveal-l">
+      <p class="svc-eyebrow" style="color:#D4AF37">07 · Google Business &amp; Reviews</p>
+      <h2 class="text-3xl md:text-4xl font-semibold text-white mt-3 mb-4" style="font-family:'Playfair Display',serif">Trust at First Glance</h2>
+      <div class="gold-bar mb-5"></div>
+      <p class="text-white/70 mb-6">An optimised Google profile and a steady stream of glowing reviews — the trust signals that win the click and the table.</p>
+      <div class="stars-wrap">
+        <span class="stars-bg">★★★★★</span>
+        <span class="stars-fg" style="--w:96%">★★★★★</span>
+      </div>
+      <div class="big-stat mt-3" data-count="320" data-suffix="+">0</div>
+      <p class="text-white/55 text-sm">Reviews generated &amp; managed</p>
+    </div>
+    <div class="reveal-r panel panel-d">
+      <p class="text-white/80 text-sm font-semibold mb-5">Rating Distribution</p>
+      <div class="hbars">
+        <div><div class="hb-top text-white/85"><span>5 ★</span><span style="color:#E8C84A">78%</span></div><div class="hb-track"><div class="hb-fill" style="--w:78%"></div></div></div>
+        <div><div class="hb-top text-white/85"><span>4 ★</span><span style="color:#E8C84A">15%</span></div><div class="hb-track"><div class="hb-fill" style="--w:15%"></div></div></div>
+        <div><div class="hb-top text-white/85"><span>3 ★</span><span style="color:#E8C84A">4%</span></div><div class="hb-track"><div class="hb-fill" style="--w:4%"></div></div></div>
+        <div><div class="hb-top text-white/85"><span>2 ★</span><span style="color:#E8C84A">2%</span></div><div class="hb-track"><div class="hb-fill" style="--w:2%"></div></div></div>
+        <div><div class="hb-top text-white/85"><span>1 ★</span><span style="color:#E8C84A">1%</span></div><div class="hb-track"><div class="hb-fill" style="--w:1%"></div></div></div>
+      </div>
+      <p class="chart-note text-white">Illustrative distribution</p>
+    </div>
+  </div>
+</section>
+
+<!-- SHOWCASE -->
+<section id="showcase" class="py-24 px-6" style="background:#060D2E">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-16 reveal">
+      <p class="label-ornament text-[11px] tracking-[.3em] uppercase mb-4" style="color:#D4AF37">The Showcase</p>
+      <h2 class="text-3xl md:text-4xl font-semibold text-white mb-5" style="font-family:'Playfair Display',serif">A Glimpse of the Content</h2>
+      <div class="gold-bar mx-auto mb-5"></div>
+      <p class="text-white/55 text-sm italic">A taste of the content we create — from generated video to social-ready creative.</p>
+    </div>
+
+    <!-- Generated Video Showcase -->
+    <div class="mb-16">
+      <p class="text-white/80 text-sm tracking-[.18em] uppercase mb-6 flex items-center gap-3" style="font-family:'Inter',sans-serif">
+        <span class="gold-bar"></span> Generated Video Showcase
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div class="vid-card reveal-s d1">
+          <span class="vbadge">AI Video</span>
+          <span class="vplay"><svg width="20" height="20" viewBox="0 0 24 24" fill="#060D2E"><path d="M8 5v14l11-7z"/></svg></span>
+          <video muted loop playsinline autoplay preload="metadata" poster="img/showcase/gen-1.jpg"><source src="img/showcase/gen-1.mp4" type="video/mp4"/></video>
+          <span class="vlabel">Gather Around the Table</span>
+        </div>
+        <div class="vid-card reveal-s d2">
+          <span class="vbadge">AI Video</span>
+          <span class="vplay"><svg width="20" height="20" viewBox="0 0 24 24" fill="#060D2E"><path d="M8 5v14l11-7z"/></svg></span>
+          <video muted loop playsinline autoplay preload="metadata" poster="img/showcase/gen-2.jpg"><source src="img/showcase/gen-2.mp4" type="video/mp4"/></video>
+          <span class="vlabel">A Guest's Welcome</span>
+        </div>
+        <div class="vid-card reveal-s d3">
+          <span class="vbadge">AI Video</span>
+          <span class="vplay"><svg width="20" height="20" viewBox="0 0 24 24" fill="#060D2E"><path d="M8 5v14l11-7z"/></svg></span>
+          <video muted loop playsinline autoplay preload="metadata" poster="img/showcase/gen-3.jpg"><source src="img/showcase/gen-3.mp4" type="video/mp4"/></video>
+          <span class="vlabel">Warm Hospitality</span>
+        </div>
+        <div class="vid-card reveal-s d4">
+          <span class="vbadge">AI Video</span>
+          <span class="vplay"><svg width="20" height="20" viewBox="0 0 24 24" fill="#060D2E"><path d="M8 5v14l11-7z"/></svg></span>
+          <video muted loop playsinline autoplay preload="metadata" poster="img/showcase/gen-4.jpg"><source src="img/showcase/gen-4.mp4" type="video/mp4"/></video>
+          <span class="vlabel">Heritage Ambience</span>
+        </div>
+        <div class="vid-card reveal-s d1">
+          <span class="vbadge">AI Video</span>
+          <span class="vplay"><svg width="20" height="20" viewBox="0 0 24 24" fill="#060D2E"><path d="M8 5v14l11-7z"/></svg></span>
+          <video muted loop playsinline autoplay preload="metadata" poster="img/showcase/gen-5.jpg"><source src="img/showcase/gen-5.mp4" type="video/mp4"/></video>
+          <span class="vlabel">Inside the Eatery</span>
+        </div>
+        <div class="vid-card reveal-s d2">
+          <span class="vbadge">AI Video</span>
+          <span class="vplay"><svg width="20" height="20" viewBox="0 0 24 24" fill="#060D2E"><path d="M8 5v14l11-7z"/></svg></span>
+          <video muted loop playsinline autoplay preload="metadata" poster="img/showcase/gen-6.jpg"><source src="img/showcase/gen-6.mp4" type="video/mp4"/></video>
+          <span class="vlabel">Set for the Feast</span>
+        </div>
+        <div class="vid-card reveal-s d3">
+          <span class="vbadge">AI Video</span>
+          <span class="vplay"><svg width="20" height="20" viewBox="0 0 24 24" fill="#060D2E"><path d="M8 5v14l11-7z"/></svg></span>
+          <video muted loop playsinline autoplay preload="metadata" poster="img/showcase/gen-7.jpg"><source src="img/showcase/gen-7.mp4" type="video/mp4"/></video>
+          <span class="vlabel">The Heritage Facade</span>
+        </div>
+        <div class="vid-card reveal-s d4">
+          <span class="vbadge">AI Video</span>
+          <span class="vplay"><svg width="20" height="20" viewBox="0 0 24 24" fill="#060D2E"><path d="M8 5v14l11-7z"/></svg></span>
+          <video muted loop playsinline autoplay preload="metadata" poster="img/showcase/gen-8.jpg"><source src="img/showcase/gen-8.mp4" type="video/mp4"/></video>
+          <span class="vlabel">A Slow Look Around</span>
+        </div>
+        <div class="vid-card reveal-s d1">
+          <span class="vbadge">AI Video</span>
+          <span class="vplay"><svg width="20" height="20" viewBox="0 0 24 24" fill="#060D2E"><path d="M8 5v14l11-7z"/></svg></span>
+          <video muted loop playsinline autoplay preload="metadata" poster="img/showcase/gen-9.jpg"><source src="img/showcase/gen-9.mp4" type="video/mp4"/></video>
+          <span class="vlabel">Heritage Frontage</span>
+        </div>
+        <div class="vid-card reveal-s d2">
+          <span class="vbadge">AI Video</span>
+          <span class="vplay"><svg width="20" height="20" viewBox="0 0 24 24" fill="#060D2E"><path d="M8 5v14l11-7z"/></svg></span>
+          <video muted loop playsinline autoplay preload="metadata" poster="img/showcase/gen-10.jpg"><source src="img/showcase/gen-10.mp4" type="video/mp4"/></video>
+          <span class="vlabel">Vintage Dining Hall</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menu Video Shot -->
+    <div class="mb-16">
+      <p class="text-white/80 text-sm tracking-[.18em] uppercase mb-6 flex items-center gap-3" style="font-family:'Inter',sans-serif">
+        <span class="gold-bar"></span> Menu Video Shot
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div class="vid-card reveal-s d1">
+          <span class="vbadge">Menu Shot</span>
+          <span class="vplay"><svg width="20" height="20" viewBox="0 0 24 24" fill="#060D2E"><path d="M8 5v14l11-7z"/></svg></span>
+          <video muted loop playsinline autoplay preload="metadata" poster="img/showcase/menu-1.jpg"><source src="img/showcase/menu-1.mp4" type="video/mp4"/></video>
+          <span class="vlabel">Close-Up Craft</span>
+        </div>
+        <div class="vid-card reveal-s d2">
+          <span class="vbadge">Menu Shot</span>
+          <span class="vplay"><svg width="20" height="20" viewBox="0 0 24 24" fill="#060D2E"><path d="M8 5v14l11-7z"/></svg></span>
+          <video muted loop playsinline autoplay preload="metadata" poster="img/showcase/menu-2.jpg"><source src="img/showcase/menu-2.mp4" type="video/mp4"/></video>
+          <span class="vlabel">Rich &amp; Plated</span>
+        </div>
+        <div class="vid-card reveal-s d3">
+          <span class="vbadge">Menu Shot</span>
+          <span class="vplay"><svg width="20" height="20" viewBox="0 0 24 24" fill="#060D2E"><path d="M8 5v14l11-7z"/></svg></span>
+          <video muted loop playsinline autoplay preload="metadata" poster="img/showcase/menu-3.jpg"><source src="img/showcase/menu-3.mp4" type="video/mp4"/></video>
+          <span class="vlabel">Steaming Bowl</span>
+        </div>
+        <div class="vid-card reveal-s d4">
+          <span class="vbadge">Menu Shot</span>
+          <span class="vplay"><svg width="20" height="20" viewBox="0 0 24 24" fill="#060D2E"><path d="M8 5v14l11-7z"/></svg></span>
+          <video muted loop playsinline autoplay preload="metadata" poster="img/showcase/menu-4.jpg"><source src="img/showcase/menu-4.mp4" type="video/mp4"/></video>
+          <span class="vlabel">Cinematic Detail</span>
+        </div>
+        <div class="vid-card reveal-s d1">
+          <span class="vbadge">Menu Shot</span>
+          <span class="vplay"><svg width="20" height="20" viewBox="0 0 24 24" fill="#060D2E"><path d="M8 5v14l11-7z"/></svg></span>
+          <video muted loop playsinline autoplay preload="metadata" poster="img/showcase/menu-5.jpg"><source src="img/showcase/menu-5.mp4" type="video/mp4"/></video>
+          <span class="vlabel">Cinematic Reveal</span>
+        </div>
+        <div class="vid-card reveal-s d2">
+          <span class="vbadge">Menu Shot</span>
+          <span class="vplay"><svg width="20" height="20" viewBox="0 0 24 24" fill="#060D2E"><path d="M8 5v14l11-7z"/></svg></span>
+          <video muted loop playsinline autoplay preload="metadata" poster="img/showcase/menu-6.jpg"><source src="img/showcase/menu-6.mp4" type="video/mp4"/></video>
+          <span class="vlabel">Overhead Spread</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ROADMAP -->
+<section id="roadmap" class="py-24 px-6" style="background:#FAF6EF">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-16 reveal">
+      <p class="label-ornament text-[11px] tracking-[.3em] uppercase mb-4" style="color:#B8941F">The Plan</p>
+      <h2 class="text-3xl md:text-4xl font-semibold mb-5" style="font-family:'Playfair Display',serif;color:#060D2E">Your First 90 Days</h2>
+      <div class="gold-bar mx-auto"></div>
+    </div>
+    <div class="space-y-5">
+      <div class="phase-card p-7 reveal d1">
+        <div class="flex items-start gap-5">
+          <span class="text-[11px] font-semibold tracking-[.16em] uppercase px-3 py-1.5 rounded-sm flex-shrink-0" style="background:rgba(212,175,55,.15);color:#B8941F">Days 1–30</span>
+          <div><h3 class="font-semibold text-lg mb-1" style="font-family:'Playfair Display',serif;color:#060D2E">Foundation</h3>
+          <p class="text-sm" style="color:#4A4A4F">Brand audit, channel setup & optimisation, Google Business profile, first edited content batch, content calendar and tracking in place.</p></div>
+        </div>
+      </div>
+      <div class="phase-card p-7 reveal d2">
+        <div class="flex items-start gap-5">
+          <span class="text-[11px] font-semibold tracking-[.16em] uppercase px-3 py-1.5 rounded-sm flex-shrink-0" style="background:rgba(212,175,55,.15);color:#B8941F">Days 31–60</span>
+          <div><h3 class="font-semibold text-lg mb-1" style="font-family:'Playfair Display',serif;color:#060D2E">Momentum</h3>
+          <p class="text-sm" style="color:#4A4A4F">Consistent posting & editing, paid ads live, review engine running, SEO &amp; AEO gaining traction.</p></div>
+        </div>
+      </div>
+      <div class="phase-card p-7 reveal d3">
+        <div class="flex items-start gap-5">
+          <span class="text-[11px] font-semibold tracking-[.16em] uppercase px-3 py-1.5 rounded-sm flex-shrink-0" style="background:rgba(212,175,55,.15);color:#B8941F">Days 61–90</span>
+          <div><h3 class="font-semibold text-lg mb-1" style="font-family:'Playfair Display',serif;color:#060D2E">Optimise & Scale</h3>
+          <p class="text-sm" style="color:#4A4A4F">Double down on what converts, refine ad spend, scale top-performing creative, and present the first full performance review.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPECTED OUTCOMES -->
+<section class="py-24 px-6" style="background:#060D2E">
+  <div class="max-w-5xl mx-auto text-center">
+    <div class="reveal mb-14">
+      <p class="label-ornament text-[11px] tracking-[.3em] uppercase mb-4" style="color:#D4AF37">What Success Looks Like</p>
+      <h2 class="text-3xl md:text-4xl font-semibold text-white mb-5" style="font-family:'Playfair Display',serif">Targets We'll Hold Ourselves To</h2>
+      <div class="gold-bar mx-auto"></div>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
+      <div class="icard reveal-s d1 p-6 rounded-xl text-center" style="background:rgba(255,255,255,.04);border:1px solid rgba(212,175,55,.16)"><div class="kpi-num mb-2">↑ Reach</div><p class="text-white/60 text-sm">Grow social following &amp; impressions month over month</p></div>
+      <div class="icard reveal-s d2 p-6 rounded-xl text-center" style="background:rgba(255,255,255,.04);border:1px solid rgba(212,175,55,.16)"><div class="kpi-num mb-2">↑ Bookings</div><p class="text-white/60 text-sm">Drive measurable reservations from digital channels</p></div>
+      <div class="icard reveal-s d3 p-6 rounded-xl text-center" style="background:rgba(255,255,255,.04);border:1px solid rgba(212,175,55,.16)"><div class="kpi-num mb-2">★ Rating</div><p class="text-white/60 text-sm">Lift Google &amp; review scores via reputation flow</p></div>
+      <div class="icard reveal-s d4 p-6 rounded-xl text-center" style="background:rgba(255,255,255,.04);border:1px solid rgba(212,175,55,.16)"><div class="kpi-num mb-2">↑ ROI</div><p class="text-white/60 text-sm">Positive return on every ad ringgit, reported monthly</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- NEXT STEPS / CTA -->
+<section id="next" class="py-28 px-6 relative" style="background:linear-gradient(160deg,#0A1645,#060D2E)">
+  <div class="absolute inset-0 dot-bg opacity-30"></div>
+  <div class="max-w-3xl mx-auto text-center relative z-10 reveal">
+    <p class="label-ornament text-[11px] tracking-[.3em] uppercase mb-5" style="color:#D4AF37">Let's Talk</p>
+    <h2 class="text-3xl md:text-5xl font-semibold text-white mb-6 michelin-glow" style="font-family:'Playfair Display',serif">Let's Tell Your Story Together</h2>
+    <p class="text-white/75 text-lg mb-10 italic" style="font-family:'Cormorant Garamond',serif;font-size:1.4rem">
+      This showcase is just a starting point — we'd love to explore the possibilities over a pot of tea.
+    </p>
+    <div class="flex flex-row flex-wrap gap-4 justify-center mb-12">
+      <a href="mailto:hello@technext.asia?subject=Auntie%20Gaik%20Lean%20Digital%20Marketing%20Showcase" class="btn btn-gold text-xs tracking-[.15em] uppercase px-9 py-4 font-semibold rounded-sm">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+        Start a Conversation
+      </a>
+      <a href="https://technextsg.github.io/auntie-gaik-lean/" target="_blank" class="btn btn-ow text-xs tracking-[.15em] uppercase px-9 py-4 rounded-sm">Visit the Website</a>
+    </div>
+    <div class="border-t border-[rgba(212,175,55,.2)] pt-8">
+      <p class="text-white/40 text-[11px] tracking-[.22em] uppercase">Showcase curated by TechNext &nbsp;·&nbsp; hello@technext.asia &nbsp;·&nbsp; technextasia.com</p>
+    </div>
+  </div>
+</section>
+
+<footer class="py-8 px-6 text-center" style="background:#050C28">
+  <p class="text-white/35 text-xs">© 2026 · Digital Marketing Showcase for Auntie Gaik Lean's Old School Eatery · Curated by TechNext</p>
+</footer>
+
+<script src="app.js?v=4" defer></script>
+</body>
+</html>
